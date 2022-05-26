@@ -33,7 +33,7 @@ public class Course {
             referencedColumnName = "teacherId"
     )
     private Teacher teacher ;
-
+//Many to many Mapping
     @ManyToMany(
             cascade = CascadeType.ALL
     )

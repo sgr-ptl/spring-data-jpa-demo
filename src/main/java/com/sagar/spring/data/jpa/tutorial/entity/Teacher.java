@@ -18,6 +18,7 @@ public class Teacher {
     private Long teacherId;
     private String firstName;
     private String lastName;
+    // commented for next example : working example with one to many
    /* @OneToMany(
             cascade = CascadeType.ALL
     )
